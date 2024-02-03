@@ -28,7 +28,7 @@ This API project constitutes a resilient Flight Search API, allowing users to in
 
 ### Access Credentials
 - Username: `user`
-- Password: `password` (Note: this can be changed from the application.properties)
+- Password: `password` (Note: this can be changed from the 'application.properties')
 
 Use the provided credentials above for HTTP Basic Authentication when accessing the Swagger UI to interact with the API endpoints.
 
@@ -48,6 +48,16 @@ The program provides different endpoints that you can access through the Swagger
 - `PUT /airports/{airportId}`: Modify an existing airport using its ID.
 - `DELETE /airports/{airportId}`: Remove an airport using its ID.
 
+## Database
+
+Note that, the SQL script, below has to be run for MySQL RDBMS in order to create the
+required database.
+
+```bash 
+DatabaseCreateQuery.sql
+``` 
+
+For further database configuration please modify 'application.properties'.
 
 ### Flight Search Endpoint
 
