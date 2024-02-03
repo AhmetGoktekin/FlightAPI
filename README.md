@@ -50,7 +50,7 @@ The program provides different endpoints that you can access through the Swagger
 
 ## Database
 
-Note that, the SQL script, below has to be run for MySQL RDBMS in order to create the
+Note that, the SQL script below has to be run for MySQL RDBMS in order to create the
 required database.
 
 ```bash 
